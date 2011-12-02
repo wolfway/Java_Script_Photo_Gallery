@@ -1,0 +1,31 @@
+body {
+color: #0000FF;
+background-color : #FFFFFFFF;
+scrollbar-base-color:#0000FF;
+scrollbar-face-color:#FFF8DC;
+scrollbar-arrow-color:#0000FF}
+/*  Bidirectional SlideShow */
+h3 {
+      font-size: 15pt;
+      color: red;
+      font-family: Helvetica, Geneva, Arial,
+      SunSans-Regular, sans-serif }
+/* Comments */
+h2 {
+     font-size : 18pt;
+     color : #0000FF;
+     font-family: Helvetica, Geneva, Arial,
+     SunSans-Regular, sans-serif }
+/*Design by Dimitar Jordanov  - xjorda01 | WAP Project  2007 */
+h1{
+     font-size : 12pt;
+     color :  #FF4500;
+     font-family: Helvetica, Geneva, Arial,
+     SunSans-Regular, sans-serif }
+/*   Picture Title   */
+div{
+      font-size: 15pt;
+      color: #0000FF ;
+      text-align: center;
+      font-family: Helvetica, Geneva, Arial,
+      SunSans-Regular, sans-serif }

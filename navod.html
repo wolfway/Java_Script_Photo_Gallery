@@ -1,0 +1,52 @@
+<html >
+<head>
+<title>Navod - WAP Project </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="author" content=" Dimitar Yordanov -  xjorda01 " />
+</head>
+<body>
+<h2> JavaScript Photo Gallery - Step by Step developers' Manual</h2>
+
+<p> In order to use this JavaScript Gallery in you project you should go through several real simple installation steps.
+ <ol>
+<li> As a fist step please ensure that you have the following file set in the project directory : </li>
+<ul>
+<li><b>wap_gallery.js</b></li>
+ <li><b>style.css</b></li>
+ <li><b>wap_config.js</b></li>
+ </ul>
+<li>After that create a folder named <b>"Comments"</b>. In this folder you can set up a separate <b>html/txt</b> file for
+ each picture in your gallery. The name of this file you will  provide latter in the configuration file <b>wap_config.js</b>. 
+You can also create a file <b>default.html</b> that will be displayed in case you leave the field in
+ configuration file <b>wap_config.js</b> empty.</li>
+<li>Create folder named <b>"images"</b>. Copy your images there.</li>
+<li>Fill the photo gallery configuration file <b>wap_config.js</b>. There you are to fill the parameters of function 
+<b>PictureParam</b>.</li>
+<ul>
+ <li>As first parameter you must provide the picture's name (example : './images/image1.jpg').</li>
+ <li> As second parameter you can put a file name of a text/html file that comprises some comments for this picture or leave it empty.
+  If the field is empty <b>./Comments/default.html </b> file will be displayed.(example : './Comments/Comment2.html' or '').</il>
+ <li> As a third parameter you can write the Picture's Title or leave it empty. In case the field is empty 
+ the picture title will be the number of the picture in the list.</li>
+ <li>In this configuration file you will find the following flags that will help you to fully customize you Photo Gallery unit :</li>
+ <ul>
+  <li> <b>indexSeparator</b> - Set up a separator for the Picture Number List unit.</li>
+  <li><b>IsPictureNumberListEnable</b> - Setting up  values "Enable" / "Disable" you can switch <b>on/off</b>  the Picture Number List unit</li>
+  <li><b>IsPictureTitleEnable </b> - Setting up  values "Enable" / "Disable" you can switch <b>on/off</b> the Picture Title unit.</li>
+  <li><b>slideDelay</b> -  This flag effects SlideShow picture change period.</li>
+ </ul>
+  <li>For further customization you are free to change the style.css file. </li>
+ </ul>
+ <li>The last step that you are to do is to copy the code comprised in the demo <b>HTML</b> file to you own <b>HTML</b> file and customize it in your own flavour. </li>
+</ol>
+ <b>Product's features :</b>
+  <ul>
+    <li>  Bidirectional Slide Show </li>
+    <li>  Mouse click on the image cause image change</li>
+    <li>  Picture Number List - List of links to the pictures in the gallery represented by their number. This feature is configurable. See "Configuration Flags".</li>
+    <li>  Picture Title  List - List of the Picture titles. The feature is implemented by Select item.</li>
+    <li>  Picture Title Select -  The title of the current picture from the gallery is display. This feature is configurable. See "Configuration Flags".</li>
+    <li>  N.B. All Next/Previous buttons and direct click on the picture are block at the time of the SlideShow projection !!!</li>
+   <ul>
+</body>
+</html>

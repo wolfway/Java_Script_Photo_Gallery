@@ -1,0 +1,50 @@
+<html>
+<head>
+      <title>WAP Projekt</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=Windows-1250" />
+      <meta name="description" content="Projekt WAP" />
+      <meta name="keywords" content="WAP" />
+      <meta name="author" content=" Dimitar Yordanov -  xjorda01 " />
+      <link rel="stylesheet" type="text/css" href="./style.css" />
+      <script type="text/javascript" src="wap_gallery.js"></script>
+      <script type="text/javascript" src="wap_config.js"></script>
+</head>
+
+<body onLoad="javascript:InitPictureGallery()">
+<div>
+<table align="center" border="0" width="600">
+<tr>
+      <td align="left" ><input type="button" id="ButtonBackward"  value="<- Spustit" onClick="ButtonBackward()"></td>
+      <td align="center" ><h3>Bidirectional SlideShow</h3></td>
+      <td align="right" ><input type="button" id="ButtonForward" value="Spustit ->" onClick="ButtonForward()"></td>
+</tr>
+<tr>
+      <td align="left" colspan="3"><span id="PictureNumList" ></div></td>
+</tr>
+<tr>
+      <td align="left"><input type="button" value=" Předchozí " onClick="javascript:buttonPrev()"></td>
+      <td align="center"><div  id="picture_title"></div></td>
+      <td align="right"><input type="button" value="     Další     " onClick="javascript:buttonNext()"></td>
+</tr>
+<tr>
+      <td colspan="3" align="center"><img name="mainimage" onClick="javascript:ClickOnPhoto()" width="600" border="2"></td>
+</tr>
+<tr>
+      <td align="left"><input type="button" value=" Předchozí " onClick="javascript:buttonPrev()"></td>
+      <td align="center"><select id="optionlist" onChange="javascript:ChangeSelectObj()"></td>
+      <td align="right"><input type="button" value="     Další     " onClick="javascript:buttonNext()"></td>
+</tr>
+<tr>
+      <td colspan="3"><br><h2>Komentáře</h2></td>
+</tr>
+<tr>
+      <td  align="left" height ="130" colspan="3" >
+      <iframe align="center" id="PictureComments"  frameborder ="0" width="600" height="90" ;"></iframe>
+      </td>
+</tr>
+<tr>
+      <td colspan="3" align="center"><h1>Design by Dimitar Jordanov  - xjorda01 | WAP Project  2007</h1></td>
+</tr>
+</table>
+</body>
+</html>
